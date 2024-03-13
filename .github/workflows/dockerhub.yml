@@ -15,7 +15,7 @@ jobs:
       NOME_COMPLETO_IMAGEM: ${{ secrets.DOCKER_USERNAME }}/$NOME_IMAGEM
       
     runs-on: ubuntu-latest
-
+    ##
     steps:
     - uses: actions/checkout@v3
     - name: Login no Docker Hub
